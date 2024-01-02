@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-02T13:36:01 IST" name="Default suite" finished-at="2024-01-02T13:36:24 IST" duration-ms="23440">
+    <groups>
+    </groups>
+    <test started-at="2024-01-02T13:36:01 IST" name="Default test" finished-at="2024-01-02T13:36:24 IST" duration-ms="23440">
+      <class name="TestCases.TestHere">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TestHere@13fd2ccd]" started-at="2024-01-02T13:36:00 IST" name="setUp" finished-at="2024-01-02T13:36:01 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCall(java.util.Hashtable)[pri:0, instance:TestCases.TestHere@13fd2ccd]" started-at="2024-01-02T13:36:02 IST" name="TestCall" data-provider="StarzPlayDataProvider" finished-at="2024-01-02T13:36:24 IST" duration-ms="21576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Test13_HISENSE_VIDA_EV_SP_BH_AR_MOVIES, lang=ar, platform=tv, parentalControl=18, x-profiletype=SP, modules=0-100, version=2, page=movies, x-geo-country=BH, RunMode=Yes, origin=hisense-vidaa}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCall -->
+        <test-method is-config="true" signature="Done()[pri:0, instance:TestCases.TestHere@13fd2ccd]" started-at="2024-01-02T13:36:24 IST" name="Done" finished-at="2024-01-02T13:36:24 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Done -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestHere@13fd2ccd]" started-at="2024-01-02T13:36:24 IST" name="tearDown" finished-at="2024-01-02T13:36:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestHere -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
